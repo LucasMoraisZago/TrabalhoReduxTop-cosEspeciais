@@ -1,5 +1,6 @@
 import React from "react"
 import Card from "./Card"
+import "./Numero.css"
 
 import { connect } from "react-redux"
 import {alterarNumero} from "../store/action/numeros"
@@ -7,8 +8,8 @@ import {alterarNumero} from "../store/action/numeros"
 function Numero(props) {
     const {num} = props
     return(
-        <Card title = "Intervalo de Números" red>
-            <div className="Intervalo">
+        <Card title = "Escolha um Números" blue>
+            <div className="Numero">
                 <span>
                     <span>Escolha um número:</span>
                     <input type="number" min="0" value={num}

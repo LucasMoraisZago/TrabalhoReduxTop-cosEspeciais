@@ -26,6 +26,7 @@ function App() {
          <Propriedades 
          titulo="QUAL SUA NOTA?"
          aluno="Lucas De Morais Zago"
+         yellow
          ></Propriedades>
       </div>
       <div className='linha'>

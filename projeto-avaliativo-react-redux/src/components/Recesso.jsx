@@ -5,7 +5,7 @@ function Sorteio(props){
     const {num} = props
 
     return (
-        <Card title="Está chegando..." purple>
+        <Card title="Está chegando..." green>
             <div>
                 <span>
                     <span>Estarei de recesso em {num} dias</span>
